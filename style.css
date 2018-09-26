@@ -1,0 +1,96 @@
+body {
+    background-color: #399aca;
+    border: 15px  #3082aa solid;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+}
+h1 {
+    color: white;
+    margin-left: 20%;
+}
+ul li {
+    list-style-type: none;
+    border: 1px white solid;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer; 
+}
+.degree {
+    font-family: Open Sans Condensed;
+    font-style: italic;
+    font-size: 30px;
+}
+main ul {
+    padding-inline-start: 0;
+}
+.city{
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+}
+#warning{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10%; 
+    margin-top: 30px;
+}
+.city li {
+    font-size: 24px;
+}
+.small {
+    width: 25%;
+}
+.medium {
+    width: 50%;
+}
+.large  {
+    width: 100%;
+}
+.rowone li:first-child{
+    background-color: #399aca;
+}
+.rowone li:nth-child(2){
+    background-color: #3ecccb;
+}
+.rowone li:last-child{
+    background-color: #986798;
+}
+.rowtwo li:first-child{
+    background-color: #c0484a;
+}
+.rowtwo li:nth-child(2){
+    background-color: #e0674f;
+}
+.rowtwo li:nth-child(3){
+    background-color: #fecb6e;
+}
+.rowtwo li:last-child{
+    background-color: #9acb9b;
+}
+.rowthree li:first-child{
+    background-color: #689999;
+}
+.rowthree li:nth-child(2){
+    background-color: #ca6899;
+}
+.rowthree li:last-child{
+    background-color: #389867;
+}
+.rowfour li {
+    background-color: #666797;
+}
+#table:hover li{
+    opacity: 0.7;
+}
+main#table li:hover{
+    opacity: 1;
+}
